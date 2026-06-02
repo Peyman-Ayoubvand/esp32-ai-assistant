@@ -12,9 +12,9 @@ An ESP32-powered AI assistant featuring OpenAI Chat integration and real-time we
 
 ## 🎥 Demo
 
-▶ Watch the project in action:
-
-https://youtu.be/bula_w-3k_0
+<a href="https://youtu.be/bula_w-3k_0" target="_blank">
+Watch the Demo Video
+</a>
 
 ---
 
@@ -28,13 +28,14 @@ https://youtu.be/bula_w-3k_0
 - WiFiManager Configuration
 - SPIFFS File Hosting
 - mDNS Support
+- 
+---
 
 ### 🌐 Frontend Files
 
-- index.html
-- style.css
-- script.js
-- Send.png
+- [index.html](data/index.html)
+- [style.css](data/style.css)
+- [script.js](data/script.js)
 
 ---
 
