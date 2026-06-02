@@ -30,7 +30,7 @@ An ESP32-powered AI assistant featuring OpenAI Chat integration and real-time we
 - WiFiManager Configuration
 - SPIFFS File Hosting
 - mDNS Support
-- 
+
 ---
 
 ### 🌐 Frontend Files
