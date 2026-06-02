@@ -227,6 +227,3 @@ http://ESP32Assistant.local
 
 ---
 
-## 👨‍💻 Author
-
-Developed as an IoT project combining ESP32, cloud APIs, embedded systems, and web technologies.
