@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+}
+body{
+        background-color:#f3f4f6;
+        overflow-y: hidden;
+}
+/* div{    
+    border: 1px solid red;
+    padding: 5px;
+} */
+
+input::placeholder{
+    font-size: 12px;
+    opacity: 0.6;
+    padding-left: 5px;
+}
+
+#container{
+    display:flex;
+    justify-content: center;
+    padding: 15px; 
+    height: 100vh;   
+}
+#contentContainer{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sidebar{
+    width: 15%;
+    padding: 150px 5px 0 5px;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid gray;
+
+}
+.sidebar button{
+    width: 100%;
+    background-color: #f3f4f6;
+    border: none;
+    font-size: 18px;
+    padding: 5px 0 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+    text-align: left;
+}
+.sidebar button:hover{
+    background-color: rgb(214, 212, 212);
+}  
+.button{
+    background-color: rgb(220, 219, 219) !important;
+}  
+.messageContainer{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 20px;
+    gap: 10px;
+    overflow-y:scroll;
+    height: calc(100vh - 170px); 
+}
+
+.message{
+    display: flex;
+    border-radius: 5px;
+    padding: 10px;
+}
+.aiInput{
+    justify-content:flex-start;
+}
+.aiInput p{
+    width: fit-content;
+}
+.userMessage{
+    justify-content:flex-end;
+}
+.userMessage p{
+    width: fit-content;
+    background-color: rgb(213, 239, 235);
+    border-radius: 5px;
+    padding: 10px;
+}
+#AI{
+    height: 25px;
+    border-bottom: 1px solid gray;
+    padding: 5px;
+}
+
+#inputContainer{
+    display: flex;
+    gap: 15px;
+    justify-content:space-between;
+    border-radius: 50px;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid gray;
+    z-index: 5;
+    position: fixed;
+    bottom: 20px;
+    right: 5%;
+    left: 20%;
+    box-shadow:0 10px 20px gray;
+    padding: 5px;
+
+}
+#userInput{
+    width: 100%;
+    height: 25px;
+    padding: 5px 5px 5px 15px;
+    border: none;
+    margin: 2px;
+    font-size: 16px;
+}
+#userInput:focus{
+    outline: none;
+}
+#sendButton{
+    background-image: url("Send.png");
+    background-size: 130px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 130px;
+    padding: 5px;
+    border-radius: 50px;
+    cursor: pointer;
+    height: 45px;
+    transition: 0.2s;
+}
+
+#sendButton:active{
+    transform: scale(0.9);
+}
+
+#sendButton:hover{
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("Send.png"); 
+    box-shadow: 5px 10px 100px gray;
+}
+
