@@ -1,5 +1,3 @@
-
-
 const allMode = document.querySelectorAll(".sidebar button");
 allMode.forEach(function(button){
     button.addEventListener("click",function(){
