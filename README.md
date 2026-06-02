@@ -13,7 +13,7 @@ An ESP32-powered AI assistant featuring OpenAI Chat integration and real-time we
 ## 🎥 Demo
 
 <a href="https://youtu.be/bula_w-3k_0" target="_blank">
-Watch the Demo Video
+ Watch Demo Video on YouTube
 </a>
 
 ---
