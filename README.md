@@ -65,7 +65,6 @@ The ESP32 hosts the frontend directly from SPIFFS and communicates with cloud AP
 - REST API Communication
 - JSON Parsing with ArduinoJson
 - API Response Validation During Development
-- Responsive Frontend Design
 
 ---
 
@@ -93,6 +92,47 @@ Displayed information:
 - Humidity
 - Wind Speed
 
+---
+
+## 🌦 Weather Processing Workflow
+
+1. The user enters a weather-related request through the web interface.
+
+2. The ESP32 sends the user input to OpenAI with a prompt requesting only the city name.
+
+3. OpenAI extracts the city name and returns it to the ESP32.
+
+4. The ESP32 sends the extracted city name to the OpenWeather API.
+
+5. OpenWeather returns the current weather data.
+
+6. The ESP32 formats the response and displays it in the web interface.
+
+### Example
+
+User Input:
+
+```text
+What's the weather like in Milan today?
+```
+
+OpenAI Output:
+
+```text
+Milan
+```
+
+OpenWeather Request:
+
+```text
+api.openweathermap.org/data/2.5/weather?q=Milan
+```
+
+Displayed Result:
+
+```text
+The weather in Milan is clear sky, the temperature is 27°C, the humidity is 45%, and the wind speed is 2.8 m/s.
+```
 ---
 
 ## 🔧 Technologies Used
