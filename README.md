@@ -22,6 +22,8 @@ Watch the Demo Video
 
 ### ⚙️ Firmware
 
+- [ESP32_AI_Assistant.ino](firmware/ESP32_AI_Assistant.ino)
+
 - ESP32 Firmware
 - OpenAI API Integration
 - OpenWeather API Integration
